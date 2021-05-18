@@ -1,1 +1,10 @@
 /* Write your media queries and flexbox CSS below */
+@media screen and (max-width: 480px) {
+  .site-header {
+    columns: 3;
+  }
+}
+
+.site-header {
+  flex-direction: column;
+}
